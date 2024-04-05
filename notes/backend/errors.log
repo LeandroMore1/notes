@@ -1,0 +1,32 @@
+error: undefined
+error: undefined
+error: undefined
+error: undefined
+error: session expired
+error: session expired
+error: session expired
+error: session expired
+error: Data too long for column 'CATEGORY' at row 1 {"code":"ER_DATA_TOO_LONG","errno":1406,"sql":"\n        INSERT INTO notes \n        (NOTE, CATEGORY, TAG ,userID) \n        VALUES ('spaceships','spaceships are cool, I always wanted to fly one','science fiction',100)\n        ","sqlMessage":"Data too long for column 'CATEGORY' at row 1","sqlState":"22001"}
+error: Data too long for column 'CATEGORY' at row 1 {"code":"ER_DATA_TOO_LONG","errno":1406,"sql":"\n        INSERT INTO notes \n        (NOTE, CATEGORY, TAG ,userID) \n        VALUES ('spaceships','spaceships are cool, I always wanted to fly one','science',100)\n        ","sqlMessage":"Data too long for column 'CATEGORY' at row 1","sqlState":"22001"}
+error: Field 'noteID' doesn't have a default value {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sql":"\n        INSERT INTO notes \n        (NOTE, CATEGORY, TAG ,userID) \n        VALUES ('spaceships','i like spaceships i always wanted to fly one','science ',100)\n        ","sqlMessage":"Field 'noteID' doesn't have a default value","sqlState":"HY000"}
+error: session expired
+error: session expired
+error: session expired
+error: session expired
+error: session expired
+error: session expired
+error: session expired
+error: session expired
+error: session expired
+error: jwt must be provided {"name":"JsonWebTokenError"}
+error: jwt must be provided {"name":"JsonWebTokenError"}
+error: jwt must be provided {"name":"JsonWebTokenError"}
+error: jwt must be provided {"name":"JsonWebTokenError"}
+error: jwt must be provided {"name":"JsonWebTokenError"}
+error: jwt must be provided {"name":"JsonWebTokenError"}
+error: session expired
+error: session expired
+error: session expired
+error: session expired
+error: session expired
+error: session expired

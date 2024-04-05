@@ -1,0 +1,93 @@
+.loginSubtitle {
+    color: #EFEFEF;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.formcont {
+    background: #FC6F15;
+    width: 80vw;
+    height: 60vh;
+    border-radius: 30px;
+}
+
+.cont {
+    height: 90vh;
+}
+
+.hidden {
+    display: none;
+}
+
+.errorMsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.successMsg {
+    background-color: rgb(205, 255, 182);
+    color: rgb(44, 178, 34);
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+label {
+    color: #EFEFEF
+}
+
+.bton {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    background-color: #212933
+}
+
+.bton:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left: 8px;
+}
+
+.bton:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.bton:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+}
+
+@media (min-width:576px) {
+    .formcont {
+        width: 50vw;
+    }
+}
+
+@media (min-width:972px) {
+    .formcont {
+        width: 28vw;
+    }
+}

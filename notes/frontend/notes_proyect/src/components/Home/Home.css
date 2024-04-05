@@ -1,0 +1,55 @@
+.titleHome{
+    color: #FC6F15;
+    margin-top: 65px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.secondary{
+    margin-bottom: 60px;
+}
+
+
+.creationDiv{
+    height: 12vh;
+    width: 20vw;
+    background-color: #FC6F15;
+    border-radius: 20px;
+}
+
+
+
+.subtitleHome{
+    color: #212933;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media (min-width:576px){
+    .creationDiv{
+        height: 28vh;
+        width: 22vw;
+    }
+    .subtitleHome{
+        font-size: 17px;
+    }
+
+    .titleHome{
+        margin-left: 60px;
+    }
+}
+
+@media (min-width:972px){
+    .creationDiv{
+        height: 38vh;
+        width: 20vw;
+    }
+    .subtitleHome{
+        font-size: 27px;
+    }
+
+    .titleHome{
+        margin-left: 60px;
+    }
+}
